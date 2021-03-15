@@ -1,0 +1,9 @@
+.idea/
+*.iml
+node_modules/
+coverage/
+public/
+build/
+.npmrc
+ui-kit-build
+/.vscode/launch.json
