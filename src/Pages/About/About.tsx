@@ -46,16 +46,16 @@ function AboutPageComponent({ className }: Props) {
 
       <ul className={styles.photos}>
         <li className={styles.photo}>
-          <Image height={170} src={dimerdgi} alt={'dimerdgi'} description={'Demerdji, Crimea'} />
+          <Image width={260} height={170} src={dimerdgi} alt={'dimerdgi'} description={'Demerdji, Crimea'} />
         </li>
         <li className={styles.photo}>
-          <Image height={170} src={ktm} alt={'ktm'} description={'Evpatoria, Red lake, Crimea'} />
+          <Image width={260} height={170} src={ktm} alt={'ktm'} description={'Evpatoria, Red lake, Crimea'} />
         </li>
         <li className={styles.photo}>
-          <Image height={170} src={elbrus} alt={'elbrus'} description={'Elbrus, Russia'} />
+          <Image width={260} height={170} src={elbrus} alt={'elbrus'} description={'Elbrus, Russia'} />
         </li>
         <li className={styles.photo}>
-          <Image height={170} src={moto} alt={'moto'} description={'Izhevsk, Russia'} />
+          <Image width={260} height={170} src={moto} alt={'moto'} description={'Izhevsk, Russia'} />
         </li>
       </ul>
     </main>
