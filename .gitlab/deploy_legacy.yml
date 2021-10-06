@@ -1,7 +1,7 @@
 .deploy:front:
  stage: deploy
  tags:
-    - front
+    - shell
  only:
   refs:
     - master
