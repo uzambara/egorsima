@@ -134,7 +134,7 @@ function CvPageComponent({ className }: Props) {
   return (
     <main className={className}>
       <h2 className={sharedStyles.title}>Egor Simonov</h2>
-      <table className={styles.backgroundTable}>
+      <table className={styles.table}>
         <tbody>
           {INFO_ROWS.map((props, i) => (
             <InfoRow key={i} {...props} />

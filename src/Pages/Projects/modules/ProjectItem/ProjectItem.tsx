@@ -15,7 +15,7 @@ export function ProjectItem({ img, description, link }: Props) {
           <img src={img} alt={img} className={styles.img} />
         </a>
       </td>
-      <td>
+      <td className={styles.descriptionCell}>
         <p className={styles.description} dangerouslySetInnerHTML={{ __html: description }} />
       </td>
     </tr>

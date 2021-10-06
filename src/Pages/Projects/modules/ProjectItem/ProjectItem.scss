@@ -2,12 +2,18 @@
   width: 200px;
   height: auto;
   border-radius: 10px;
-  margin-right: 15px;
+  margin-right: 35px;
   box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.24);
 
   &:hover {
     box-shadow: 0 14px 50px 0 rgba(0, 0, 0, 0.24);
   }
+}
+
+.descriptionCell {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
 .description {
