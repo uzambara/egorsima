@@ -15,19 +15,7 @@ let isProdMode = false;
 const plugins = () => {
   const base = [];
 
-  let api_host = '';
-  if (isProdMode) api_host = "'https://api.salero.io'";
-  if (isDevMode) api_host = "'http://164.90.202.88:7000'";
-  if (isLocalMode) api_host = "'http://127.0.0.1:8000'";
-
   base.push(
-    new webpack.DefinePlugin({
-      APP_NAME: "'Salero'",
-      API_HOST: api_host,
-      AUTH_COOKIE_NAME: "'.salero_auth'",
-      YM_ACCOUNT: "'72228922'",
-      GA_ACCOUNT: "'GTM-PB269L2'",
-    }),
     new HtmlWebpackPlugin({
       inject: 'body',
       template: './src/index.html',
