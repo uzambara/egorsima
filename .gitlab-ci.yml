@@ -1,0 +1,3 @@
+include:
+    - local: '/.gitlab/common.yml'
+    - local: '/.gitlab/deploy_legacy.yml'

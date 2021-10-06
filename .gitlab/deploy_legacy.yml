@@ -1,0 +1,13 @@
+.deploy:front:
+ stage: deploy
+ tags:
+    - front
+ only:
+  refs:
+    - master
+ before_script:
+    - npm install
+    - npm run build
+ script:
+    - rm -rf /var/www/egorsima.com/*
+    - cp -r $(pwd)/build/* /var/www/egorsima.com/

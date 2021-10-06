@@ -1,0 +1,9 @@
+stages:
+  - deploy
+deploy_master:
+  environment: master
+  extends:
+    - .deploy:front
+  only:
+    refs:
+      - master
