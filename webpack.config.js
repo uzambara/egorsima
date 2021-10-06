@@ -120,7 +120,7 @@ module.exports = (env, args) => {
     mode: 'development',
     context: __dirname,
     entry: {
-      index: path.resolve(__dirname, './src/index.tsx'),
+      index: path.resolve(__dirname, './src/Index.tsx'),
     },
     output: {
       path: path.resolve(__dirname, 'build'),
