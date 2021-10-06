@@ -35,7 +35,7 @@ function AboutPageComponent({ className }: Props) {
         <h4>Soft skills</h4>
         <p>
           I'm a team player. I will never refuse help. I love to share my knowledge and gain knowledge from colleagues.
-          I am a sociable and cheerful person
+          I am a sociable and cheerful person.
         </p>
         <h4>Life</h4>
         <p>
