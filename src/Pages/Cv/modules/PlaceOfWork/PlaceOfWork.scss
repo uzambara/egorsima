@@ -24,3 +24,9 @@
 .cellDescription {
   border-bottom: 1px solid darkgrey;
 }
+
+@media screen and (max-width: 900px) {
+  .periodColumn {
+    white-space: normal;
+  }
+}
