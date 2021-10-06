@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-rows: 50px 1fr 80px;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+}
+
+.main {
+  max-width: 1250px;
+  margin: 0 auto;
+  width: 100%;
+}

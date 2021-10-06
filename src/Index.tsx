@@ -1,12 +1,6 @@
 ﻿import React from 'react';
 import { render } from 'react-dom';
 import { App } from './App';
-import { globalHistory } from './Routing';
-import { Router } from 'react-router';
+import './style.scss';
 
-render(
-  <Router history={globalHistory}>
-    <App />
-  </Router>,
-  document.getElementById('app'),
-);
+render(<App />, document.getElementById('app'));

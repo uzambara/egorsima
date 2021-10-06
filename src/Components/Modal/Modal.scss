@@ -1,0 +1,28 @@
+.modal {
+
+}
+
+.closeIcon {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  cursor: pointer;
+}
+
+:global {
+  .ReactModal__Overlay {
+    background-color: transparent !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ReactModal__Content {
+    box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.24);
+    inset: auto !important;
+  }
+
+  .ReactModal__Overlay--after-open {
+    z-index: 999;
+  }
+}

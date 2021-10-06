@@ -1,0 +1,13 @@
+.img {
+  cursor: pointer;
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.24);
+  }
+}
+
+.description {
+  margin-bottom: 0;
+  font-style: italic;
+}

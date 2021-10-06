@@ -1,0 +1,26 @@
+.periodColumn {
+  padding-right: 60px;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.row {
+  vertical-align: top;
+}
+
+.cell {
+  padding-bottom: 20px;
+
+  a {
+    color: black;
+    font-style: italic;
+  }
+}
+
+.position {
+  font-weight: bold;
+}
+
+.cellDescription {
+  border-bottom: 1px solid darkgrey;
+}
