@@ -17,10 +17,10 @@ export function Image({ src, alt, width, height, description }: Props) {
   return (
     <>
       <Modal isOpen={isOpened} onClose={close}>
-        <img src={src} alt={alt} className={styles.img} />
+        <img src={src} alt={alt} className={styles.imgModal} />
         <p className={styles.description}>{description}</p>
       </Modal>
-      <img height={height} width={width} src={src} alt={alt} onClick={open} />
+      <img className={styles.img} height={height} width={width} src={src} alt={alt} onClick={open} />
     </>
   );
 }
