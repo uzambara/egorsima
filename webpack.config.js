@@ -118,6 +118,7 @@ module.exports = (env, args) => {
 
   return {
     mode: 'development',
+    context: __dirname,
     entry: {
       index: path.resolve(__dirname, './src/index.tsx'),
     },
