@@ -124,8 +124,8 @@ module.exports = (env, args) => {
     },
     output: {
       path: path.resolve(__dirname, 'build'),
-      filename: `scripts/[name].bundle.js`,
-      chunkFilename: 'scripts/[name].bundle.js',
+      filename: `scripts/[name].[contenthash].bundle.js`,
+      chunkFilename: 'scripts/[name].[contenthash].bundle.js',
       publicPath: '/',
     },
     plugins: plugins(),
