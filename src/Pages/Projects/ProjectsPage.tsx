@@ -21,7 +21,7 @@ function ProjectsPageComponent({ className }: Props) {
         <tbody>
           <ProjectItem
             img={worzilla}
-            link={'http://technomart.egorsima.com'}
+            link={'http://www.work-zilla.com'}
             description={
               'Application fo freelance. <br/><a target="_blank" href="https://www.work-zilla.com">Work-zilla</a>'
             }
@@ -35,16 +35,16 @@ function ProjectsPageComponent({ className }: Props) {
           />
           <ProjectItem
             img={shipcheaper}
-            link={'http://pizza.egorsima.com'}
+            link={'http://www.ship-cheaper.com'}
             description={
               'Startup project.<br/> ERP sytem for marketplaces (Ebay, Amazon)<br/><a target="_blank" href="https://www.ship-cheaper.com">Ship-cheaper</a>'
             }
           />
           <ProjectItem
             img={technomart}
-            link={'http://pizza.egorsima.com'}
+            link={'http://technomart.egorsima.com'}
             description={
-              'Study task HTML and CSS, lvl 1.<br/> Site for power tool shop. Only desktop layout.<br/><a target="_blank" href="http://www.technomart.egorsima.com">Technomart</a>'
+              'Study task HTML and CSS, lvl 1.<br/> Site for power tool shop. Only desktop layout.<br/><a target="_blank" href="http://technomart.egorsima.com">Technomart</a>'
             }
           />
         </tbody>
