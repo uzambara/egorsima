@@ -6,6 +6,7 @@ import dimerdgi from './images/dimerdgi.jpg';
 import ktm from './images/ktm.jpg';
 import moto from './images/moto.jpg';
 import elbrus from './images/elbrus.jpeg';
+import me from './images/me.jpeg';
 import { Image } from '../../Components/Image/Image';
 
 import styles from './About.scss';
@@ -61,12 +62,14 @@ function AboutPageComponent({ className }: Props) {
     <main className={className}>
       <h2 className={sharedStyles.title}>about me</h2>
       <section className={styles.aboutMe}>
-        <h3>Hi, I'm Egor.</h3>
-        {ABOUT_ITEMS.map((props, i) => (
-          <AboutItem key={i} {...props} />
-        ))}
+        <div className={styles.aboutText}>
+          <h3>Hi, I'm Egor.</h3>
+          {ABOUT_ITEMS.map((props, i) => (
+            <AboutItem key={i} {...props} />
+          ))}
+        </div>
+        <img className={styles.myPhoto} alt={'egor simonov'} src={me} width={220} height={'auto'} />
       </section>
-
       <ul className={styles.photos}>
         <li className={styles.photo}>
           <Image width={260} height={170} src={dimerdgi} alt={'dimerdgi'} description={'Demerdji, Crimea'} />

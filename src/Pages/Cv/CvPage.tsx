@@ -124,7 +124,7 @@ const EDUCATION = [
 const INFO_ROWS = [
   {
     label: 'Contact Details',
-    info: '<a target="_blank" href="tel:+79630269888">+79630269888</a><br /><a target="_blank" href="mailto:egor-sima@gmail.com">egor-sima@gmail.com</a>',
+    info: `<a target="_blank" href="tel:+79630269888">+79630269888</a><br /><a target="_blank" href="mailto:egor-sima@gmail.com">egor-sima@gmail.com</a>`,
   },
   { label: 'Date of birthday', info: '01.05.1989' },
   { label: 'Nationality', info: 'Russian' },
