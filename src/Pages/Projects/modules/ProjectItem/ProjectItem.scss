@@ -14,6 +14,7 @@
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
   padding: 5px 10px;
+  color: darkslategray;
 }
 
 .description {
@@ -28,8 +29,7 @@
   vertical-align: top;
 
   & a {
-    color: dimgrey;
-    font-weight: bold;
+    color: black;
     font-style: italic;
   }
 }
