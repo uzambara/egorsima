@@ -62,13 +62,10 @@ function AboutPageComponent({ className }: Props) {
     <main className={className}>
       <h2 className={sharedStyles.title}>about me</h2>
       <section className={styles.aboutMe}>
-        <div className={styles.aboutText}>
-          <h3>Hi, I'm Egor.</h3>
-          {ABOUT_ITEMS.map((props, i) => (
-            <AboutItem key={i} {...props} />
-          ))}
-        </div>
-        <img className={styles.myPhoto} alt={'egor simonov'} src={me} width={220} height={'auto'} />
+        <h3>Hi, I'm Egor.</h3>
+        {ABOUT_ITEMS.map((props, i) => (
+          <AboutItem key={i} {...props} />
+        ))}
       </section>
       <ul className={styles.photos}>
         <li className={styles.photo}>
