@@ -95,7 +95,7 @@ const PLACES_OF_WORK = [
 
 const EDUCATION = [
   {
-    period: 'September 1992 – May 1997',
+    period: 'September 2006 – May 2010',
     position: 'Bachelor’s degree at <b>Izhevsk State Technical University</b>',
     location: 'Izhevsk, Russia',
     technologies: '',
