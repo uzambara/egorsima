@@ -11,7 +11,7 @@ const CONTACTS = [
   {
     label: 'E-mail',
     img: Icons.email,
-    contact: '<a target="_blank" href="mailto:egor-sima@gmail.com">egor-sima@gmail.com</a>',
+    contact: '<a target="_blank" href="mailto:egorsima@gmail.com">egorsima@gmail.com</a>',
   },
   { label: 'Phone', img: Icons.call, contact: '<a target="_blank"  href="tel:+79630269888">+79630269888</a>' },
   {
